@@ -10,7 +10,6 @@
             android:title="Visão Geral" />
     </group>
 
-
     <item android:title="Farmácia">
         <menu>
             <group
@@ -24,24 +23,22 @@
                     android:id="@+id/estoque"
                     android:icon="@drawable/store"
                     android:title="Estoque" />
-                <item
-                    android:id="@+id/barcodes"
-                    android:icon="@drawable/barcode"
-                    android:title="Códigos de Barras" />
-
-
             </group>
         </menu>
     </item>
 
-    <group
-        android:id="@+id/gro1up_3"
-        android:checkableBehavior="single">
-        <item
-            android:id="@+id/relatorios"
-            android:icon="@drawable/report"
-            android:title="Relatórios" />
-    </group>
+    <item android:title="Vendas">
+        <menu>
+            <group
+                android:id="@+id/gro1up_3"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/relatorios"
+                    android:icon="@drawable/report"
+                    android:title="Relatórios" />
+            </group>
+        </menu>
+    </item>
 
     <item android:title="Sistema">
         <menu>
